@@ -1264,8 +1264,10 @@ body > footer .copyrights {
 }
 
 .testimonial-item {
-  width: 100%;
+  width: 200%;
   margin: 0 auto;
+  border: 1px solid #e0e0e0;
+  border-top: 2px solid #0e66d7;  
 }
 
 .testimonial-credits {
@@ -1300,9 +1302,9 @@ body > footer .copyrights {
 
 .testimonial-content .testimonial-text {
   padding: 2.2em 1.2em 1.5em;
-  font-style: italic;
-  border: 1px solid #e0e0e0;
-  border-top: 2px solid #0e66d7;
+  /* font-style: italic; */
+  /* border: 1px solid #e0e0e0;
+  border-top: 2px solid #0e66d7; */
   width: 100%;
   position: relative;
   margin: 0;
@@ -1337,7 +1339,7 @@ body > footer .copyrights {
   color: #9e9e9e;
   margin: 0;
   text-transform: uppercase;
-  font-style: italic;
+  /* font-style: italic; */
   font-weight: lighter
 }
 /* /Testimonials */
