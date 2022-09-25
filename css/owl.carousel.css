@@ -23,11 +23,21 @@
     visibility: hidden;
     line-height: 0;
     height: 0; }
-  .owl-carousel .owl-stage-outer {
+  .owl-carousel .owl-stage-outer #overflow{
     position: relative;
-    overflow: auto;
+    overflow: hidden;
     /* fix for flashing background */
     -webkit-transform: translate3d(0px, 0px, 0px); }
+
+  #overflow{
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    /* fix for flashing background */
+    -webkit-transform: translate3d(0px, 0px, 0px); }
+
+
   .owl-carousel .owl-item {
     position: relative;
     min-height: 1px;
