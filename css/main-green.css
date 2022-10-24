@@ -321,8 +321,9 @@ button, input[type="button"], input[type="submit"] {
   line-height: 2.8;
   padding: 0 1.5em;
   outline: none;
-  border: 0;
+  border: 0px;
   border-radius: 3px;
+  margin-bottom: 10px;
 }
 
 .btn-primary,
